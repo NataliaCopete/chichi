@@ -35,7 +35,7 @@ def transformada(arr):
   m=np.linspace(0,M-1,M, dtype=np.int16)
   n=np.linspace(0,N-1,N,dtype=np.int16)
   for k in range(M):
-    print(k)
+    
     expm=np.exp(-2.0*np.pi*1.0j*(m*float(k)/M))
     for l in range (N):
       expn=np.exp(-2.0*np.pi*1.0j*(n*float(l)/N))
@@ -52,7 +52,7 @@ def inversa(arr):
   m=np.linspace(0,M-1,M, dtype=np.int16)
   n=np.linspace(0,N-1,N,dtype=np.int16)
   for k in range(M):
-    print(k)
+    
     expm=np.exp(2.0*np.pi*1.0j*(m*float(k)/M))
     for l in range (N):
       
